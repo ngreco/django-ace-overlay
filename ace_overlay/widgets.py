@@ -24,6 +24,7 @@ class AceOverlayWidget(forms.Textarea):
     @property
     def media(self):
         js = [
+            "ace_overlay/jquery/jquery-3.3.1.min.js",
             "ace_overlay/js_beautify/js_beautify.js",
             "ace_overlay/underscore/underscore.js",
             "ace_overlay/ace/ace.js",

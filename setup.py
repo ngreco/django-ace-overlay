@@ -7,7 +7,7 @@ setup(
     author_email='nina@ninalp.com',
     url='https://github.com/ninapavlich/django-ace-overlay',
     license="MIT",
-    description='Ace editor for Django admin',
+    description='Ace editor for Django',
     keywords=['libraries', 'web development', 'cms', 'django', 'code-editor', 'admin'],
     include_package_data=True,
     packages=['ace_overlay'],

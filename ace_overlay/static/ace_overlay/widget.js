@@ -4,7 +4,11 @@
     try {
         $ = grp.jQuery;
     } catch (err) {
-        $ = django.jQuery;
+        try {
+            $ = django.jQuery;
+        } catch (err) {
+            $ = jQuery; //Using in non-admin page.
+        }
     }
 
     function next(elem) {
